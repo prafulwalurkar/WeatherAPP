@@ -22,6 +22,7 @@ export default function InfoBox({info}){
 
     return(
             <div><br></br>
+ 
             <div class="cardContainer">
                 <Card sx={{ maxWidth: 345 }}>
                 <CardMedia
@@ -34,9 +35,10 @@ export default function InfoBox({info}){
                     <Typography gutterBottom variant="h5" component="div">
                     {info.city} 
                     </Typography>
+                    <div class="Temp" ><h2>{info.temp}&deg;C</h2></div>
                     <h2>Weather Info - {info.weather}</h2>
                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                    <div class="Temp" >{info.temp}&deg;C</div>
+                    
                     <div>Humidity = {info.humidity}&deg;C</div>
                     <div>Temp Max = {info.tempMax}&deg;C</div>
                     <div>Temp Min = {info.tempMin}&deg;C</div>
@@ -50,8 +52,8 @@ export default function InfoBox({info}){
                     <Button size="small">Learn More</Button>
                 </CardActions>
                 </Card>
-                </div> 
                 
+                </div> 
             
             </div>
             

@@ -1,6 +1,6 @@
 .InfoBox{
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(221, 54, 17);
 }
 .cardContainer,.cardContent{
     display: flex;
@@ -10,7 +10,7 @@
 }
 .css-1lt5qva-MuiCardContent-root {
     padding: 16px;
-    background-color: #ff91D0;
+    background-color: #70cfe2;
     font-family: cursive;
     font-style: italic;
     
